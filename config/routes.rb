@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'contact/list'
+  get 'contact' => 'contact#list'
 
   root 'application#hello'
   # The priority is based upon order of creation: first created -> highest priority.
